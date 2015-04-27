@@ -1,0 +1,32 @@
+{
+  "name": "static-js-yaml",
+  "version": "0.0.0",
+  "description": "Source transform static js-yaml expressions to remove yaml",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parshap/static-js-yaml.git"
+  },
+  "keywords": [
+    "browserify",
+    "yaml"
+  ],
+  "author": "Parsha Pourkhomami",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/parshap/static-js-yaml/issues"
+  },
+  "homepage": "https://github.com/parshap/static-js-yaml",
+  "dependencies": {
+    "js-yaml": "^3.3.0",
+    "static-module": "^1.1.2",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "tape": "^4.0.0"
+  }
+}
