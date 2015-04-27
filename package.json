@@ -1,6 +1,6 @@
 {
   "name": "static-js-yaml",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Source transform static js-yaml expressions to remove yaml",
   "main": "index.js",
   "scripts": {
